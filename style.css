@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+}
+body header {
+  background-color: #000;
+  width: 10%;
+  height: 100vh;
+}
+body header ul {
+  list-style-type: none;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  text-align: start;
+}
+body header ul li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #fff;
+}
+body header a {
+  color: #d7d3d3;
+  text-decoration: none;
+}
+body main {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+body main .heroSection {
+  padding: 0 10%;
+}
+body main .heroSection h1 {
+  text-align: center;
+}
+body main .heroSection__content {
+  text-align: center;
+  padding: 10px 20%;
+  background-color: #efefef;
+}
+body main .heroSection__content h2 {
+  font-size: 18px;
+}
+body main .heroSection__content p {
+  font-size: 16px;
+  line-height: 18.75px;
+  font-weight: 400;
+}
+body main .heroSection__lists {
+  display: grid;
+  grid-template: 1fr/1fr 1fr 1fr;
+  gap: 20px;
+  padding-top: 20px;
+}
+body main .heroSection__lists--item img {
+  float: left;
+}
+body main .heroSection__lists--item p {
+  font-size: 16px;
+  line-height: 18.75px;
+}
+body main .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: start;
+  padding: 20px 20px 20px 10%;
+  width: 100%;
+  color: #3e3e3e;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  border-top: 1px solid #dedede;
+}
+
+/*# sourceMappingURL=style.css.map */
